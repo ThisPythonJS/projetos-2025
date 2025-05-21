@@ -1,1 +1,113 @@
-<h1>EM BREVE!</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!--- META TAGS --->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="ThisPythonJS | Projetos 2025" />
+  <meta property="og:description" content="Todos meus projetos realizados, no periodo escolar ou quando estava de bobeira. Será util para desenvolvedores/estudantes de programação!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://https://thispythonjs-projects.netlify.app/" />
+  <meta property="og:image" content="https://thispythonjs-projects.netlify.app/2025/internos/logo.png" />
+  <!--- META TAGS TWITTER --->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ThisPythonJS | Projetos 2025" />
+  <meta name="twitter:description" content="Todos meus projetos realizados, no periodo escolar ou quando estava de bobeira. Será util para desenvolvedores/estudantes de programação!" />
+  <meta name="twitter:image" content="https://thispythonjs-projects.netlify.app/2025/internos/logo.png" />
+  <title>ThisPythonJS | Projetos 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      font-family: 'Bebas Neue', cursive;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .blur-bg {
+      position: absolute;
+      width: 120%;
+      height: 120%;
+      top: -10%;
+      left: -10%;
+      background: radial-gradient(circle at center, #1e90ff33 0%, transparent 70%);
+      filter: blur(50px);
+      z-index: 0;
+      animation: pulse 6s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      color: #1E90FF;
+      text-shadow: 2px 2px 10px #071522;
+      font-size: 4em;
+      z-index: 1;
+      margin-bottom: 50px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 30px;
+      z-index: 1;
+    }
+
+    .buttons a {
+      background-color: #1E90FF;
+      padding: 16px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      box-shadow: 0 6px 20px rgba(30, 144, 255, 0.5);
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+
+    .buttons a:hover {
+      transform: scale(1.1);
+      background-color: #007acc;
+    }
+
+    .buttons img {
+      width: 32px;
+      height: 32px;
+      filter: brightness(0) invert(1);
+    }
+  </style>
+</head>
+<body>
+  <div class="blur-bg"></div>
+
+  <h1>🛠️ Em Desenvolvimento!</h1>
+
+  <div class="buttons">
+    <a href="https://github.com/ThisPythonJS/projetos-2025" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    </a>
+    <a href="https://instagram.com/thispythonjs" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+    </a>
+  </div>
+</body>
+</html>
